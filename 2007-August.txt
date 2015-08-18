@@ -1,0 +1,37 @@
+From ibc at aliax.net  Tue Aug 28 15:09:32 2007
+From: ibc at aliax.net (=?utf-8?q?I=C3=B1aki_Baz_Castillo?=)
+Date: Tue, 28 Aug 2007 15:09:32 +0200
+Subject: [Sippy-b2bua] Documentacion about installation?
+Message-ID: <200708281509.32811.ibc@aliax.net>
+
+Hi, I want to use Sippy B2BUA but don't find a README or any doc about its 
+installation, just those two pages:
+ http://www.b2bua.org/wiki
+ http://www.b2bua.org/wiki/B2BUADocumentation
+
+I need to use a B2BUA between OpenSer and Asterisk because Asterisk doesn't 
+allow "Loop Back" from a SIP proxy, so this call back needs to be a different 
+call for Asterisk, that's why I need a B2BUA that receives OpenSer's call in 
+back and generates new one to Asterisk.
+
+So could somebody tell me how to configure B2BUA? I just see "SipConf.py" as a 
+configuration file, but don't know if B2BUA can authenticate itself for 
+outgoing calls, and I don't know how to configure it for my needs.
+
+I use Debian Sid with the following python packages:
+  python                         2.4.4-6 
+  python-minimal                 2.4.4-6
+  python-support                 0.6.4
+  python2.4                      2.4.4-4
+  python2.4-minimal              2.4.4-4
+
+Do I need something else?
+
+
+Thanks in advance.
+
+
+-- 
+I?aki Baz Castillo
+
+
